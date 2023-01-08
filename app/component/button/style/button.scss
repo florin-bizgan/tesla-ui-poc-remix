@@ -1,0 +1,24 @@
+$kind: (
+  "danger": "red",
+  "info": "yellow",
+  "success": "green",
+  "wrong": "blue",
+);
+
+@each $key, $value in $kind {
+  [data-kind="#{$key}"] {
+    background-color: #{$value};
+    padding: 50px;
+  }
+}
+
+// [data-kind="info"] {
+//   background-color: yellow;
+// }
+// [data-kind="success"] {
+//   background-color: green;
+// }
+
+[data-underline] {
+  text-decoration: underline;
+}

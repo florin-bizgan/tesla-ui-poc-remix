@@ -1,0 +1,25 @@
+[data-kind=danger] {
+  background-color: red;
+  padding: 50px;
+}
+
+[data-kind=info] {
+  background-color: yellow;
+  padding: 50px;
+}
+
+[data-kind=success] {
+  background-color: green;
+  padding: 50px;
+}
+
+[data-kind=wrong] {
+  background-color: blue;
+  padding: 50px;
+}
+
+[data-underline] {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=button.css.map */
