@@ -1,0 +1,118 @@
+[data-box=flex] {
+  display: flex;
+}
+
+[data-box=grid] {
+  display: inline-grid;
+  background-color: rgba(255, 255, 255, 0.75);
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  padding: 8px;
+  width: fit-content;
+}
+
+[data-full-height] {
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  /* background-image: url("/background/model-3-mobile.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+[data-full-height][data-section=model-3] {
+  background-image: url("/background/model-3-mobile.jpg");
+}
+
+[data-full-height][data-section=model-y] {
+  background-image: url("/background/model-y-mobile.jpg");
+}
+
+[data-full-height][data-section=model-s] {
+  background-image: url("/background/model-s-mobile.jpg");
+}
+
+[data-full-height][data-section=model-x] {
+  background-image: url("/background/model-x-mobile.jpg");
+}
+
+[data-full-height][data-section=solar-panels] {
+  background-image: url("/background/solar-panels-mobile.jpg");
+}
+
+[data-full-height][data-section=solar-roof] {
+  background-image: url("/background/solar-roof-mobile.jpg");
+}
+
+[data-full-height][data-section=accessories] {
+  background-image: url("/background/accessories-mobile.jpg");
+}
+
+@media screen and (min-width: 680px) {
+  [data-full-height][data-section=model-3] {
+    background-image: url("/background/model-3.jpg");
+  }
+
+  [data-full-height][data-section=model-y] {
+    background-image: url("/background/model-y.jpg");
+  }
+
+  [data-full-height][data-section=model-s] {
+    background-image: url("/background/model-s.jpg");
+  }
+
+  [data-full-height][data-section=model-x] {
+    background-image: url("/background/model-x.jpg");
+  }
+
+  [data-full-height][data-section=solar-panels] {
+    background-image: url("/background/solar-panels.jpg");
+  }
+
+  [data-full-height][data-section=solar-roof] {
+    background-image: url("/background/solar-roof.jpg");
+  }
+
+  [data-full-height][data-section=accessories] {
+    background-image: url("/background/accessories.jpg");
+  }
+}
+[data-full-height] > div:last-child {
+  gap: 64px;
+}
+
+[data-align=center] {
+  align-items: center;
+}
+
+[data-align=start] {
+  align-items: start;
+}
+
+[data-align=end] {
+  align-items: end;
+}
+
+[data-justify=center] {
+  justify-content: center;
+}
+
+[data-justify=start] {
+  justify-content: start;
+}
+
+[data-justify=end] {
+  justify-content: end;
+}
+
+[data-gap] {
+  gap: 12px;
+}
+
+[data-vertical] {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=box.css.map */
