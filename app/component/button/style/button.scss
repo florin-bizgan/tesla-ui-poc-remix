@@ -1,24 +1,20 @@
-$kind: (
-  "danger": "red",
-  "info": "yellow",
-  "success": "green",
-  "wrong": "blue",
-);
-
-@each $key, $value in $kind {
-  [data-kind="#{$key}"] {
-    background-color: #{$value};
-    padding: 50px;
-  }
+body {
+  background-color: grey;
 }
 
-// [data-kind="info"] {
-//   background-color: yellow;
-// }
-// [data-kind="success"] {
-//   background-color: green;
-// }
+[data-button] {
+  width: 256px;
+  border-radius: 20px;
+  height: 40px;
+  border: 0;
+  color: white;
+  background-color: #181b21;
 
-[data-underline] {
-  text-decoration: underline;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+[data-light="true"] {
+  background-color: #e3e3e3;
+  color: #000;
 }

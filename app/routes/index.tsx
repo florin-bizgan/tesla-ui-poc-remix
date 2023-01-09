@@ -3,18 +3,13 @@ import { Button, buttonLink } from "~/component";
 
 export const links: LinksFunction = () => [...buttonLink()];
 
-const TeslUI = () => {
+const TeslaUI = () => {
   return (
     <div>
-      <h1>Tesla bam bam</h1>
-      <Button kind='danger'>Tesla Turbo</Button>
-      <Button kind='info' data-underline>
-        Tesla Turbo
-      </Button>
-      <Button kind='success'>Tesla Turbo</Button>
-      <Button kind='wrong'>Tesla Turbo</Button>
+      <Button>CUSTOM ORDER</Button>
+      <Button>EXISTING INVENTORY</Button>
     </div>
   );
 };
 
-export default TeslUI;
+export default TeslaUI;
