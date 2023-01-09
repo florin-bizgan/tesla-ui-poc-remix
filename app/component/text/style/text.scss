@@ -1,0 +1,23 @@
+[data-text] {
+  color: black;
+  font-size: 14px;
+  padding: 8px;
+  font-family: "Roboto";
+}
+
+[data-text]:last-child:not([data-underline]) {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+[data-title] {
+  font-weight: 500;
+  font-size: 40px;
+
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+[data-underline] {
+  text-decoration: underline;
+}
