@@ -1,0 +1,14 @@
+[data-chevron] {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-rotate="180"] {
+  transform: rotate(180deg);
+}
+
+/*# sourceMappingURL=chevron.css.map */
